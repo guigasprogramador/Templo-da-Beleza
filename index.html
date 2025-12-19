@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Templo da Beleza | Elegância & Estilo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              gold: {
+                50: '#fbf9f1',
+                100: '#f4f0db',
+                200: '#e9dfb7',
+                300: '#dac88a',
+                400: '#c5a028',
+                500: '#d4af37', // Primary Gold
+                600: '#b88d2b',
+                700: '#956925',
+                800: '#7c5424',
+                900: '#6a4722',
+              },
+              charcoal: '#36454F',
+              deeprose: '#A95C68',
+            },
+            fontFamily: {
+              serif: ['"Playfair Display"', 'serif'],
+              sans: ['Montserrat', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: 'Montserrat', sans-serif;
+        scroll-behavior: smooth;
+      }
+      .font-serif {
+        font-family: 'Playfair Display', serif;
+      }
+      .bg-metallic-gold {
+        background: linear-gradient(135deg, #d4af37 0%, #f7e08b 50%, #d4af37 100%);
+      }
+      .text-gradient-gold {
+        background: linear-gradient(135deg, #d4af37 0%, #956925 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .card-hover:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px -10px rgba(0,0,0,0.1);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.34.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

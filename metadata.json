@@ -1,0 +1,8 @@
+{
+  "name": "Templo da Beleza - Premium Hair Salon",
+  "description": "A sophisticated and luxurious beauty salon website for Templo da Beleza, featuring elegant design, smooth animations, and an AI-powered service assistant.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
